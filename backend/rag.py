@@ -134,7 +134,7 @@ def initialize_agentic_ai(directory_path: str, api_key: str,
 def get_agent():
     global _agent
     if _agent is None:
-        API_KEY = "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"
+        API_KEY = ""
         DIRECTORY_PATH = "C:/Users/User/Downloads/SimplyAI-Agentic-AI-Hackathon/backend/data_ingress/mom.gov.sg/webpage"
         _agent = initialize_agentic_ai(directory_path=DIRECTORY_PATH, api_key=API_KEY)
     return _agent
